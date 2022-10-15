@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.4cd65c7f.chunk.js",
-    "main.js.map": "/static/js/main.4cd65c7f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c24f648c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c24f648c.js.map",
-    "static/js/2.e6c79764.chunk.js": "/static/js/2.e6c79764.chunk.js",
-    "static/js/2.e6c79764.chunk.js.map": "/static/js/2.e6c79764.chunk.js.map",
+    "main.css": "/static/css/main.8db4127a.css",
+    "main.js": "/static/js/main.877e7240.js",
+    "static/media/mock5.png": "/static/media/mock5.c9b5f54e8517e13fc897.png",
+    "static/media/self.png": "/static/media/self.aee462936ba9b2cd418f.png",
+    "static/media/mock2.png": "/static/media/mock2.e8ed2c07928dfdc15a79.png",
+    "static/media/gs.png": "/static/media/gs.39a9f117a19aa31ddc72.png",
+    "static/media/mock1.png": "/static/media/mock1.e11f6103909e8c52d703.png",
+    "static/media/mock3.png": "/static/media/mock3.8624cffbb7ae4e742c4c.png",
+    "static/media/mock4.png": "/static/media/mock4.2b2ba794bc5cd75eb2c1.png",
     "index.html": "/index.html",
-    "precache-manifest.9c60e709d29b00adb80a3298b43c05d4.js": "/precache-manifest.9c60e709d29b00adb80a3298b43c05d4.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.e6c79764.chunk.js.LICENSE.txt": "/static/js/2.e6c79764.chunk.js.LICENSE.txt"
+    "main.8db4127a.css.map": "/static/css/main.8db4127a.css.map",
+    "main.877e7240.js.map": "/static/js/main.877e7240.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c24f648c.js",
-    "static/js/2.e6c79764.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.4cd65c7f.chunk.js"
+    "static/css/main.8db4127a.css",
+    "static/js/main.877e7240.js"
   ]
 }
