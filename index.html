@@ -1,311 +1,136 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-  <!--<![endif]-->
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Anu ❤️ Gagan - 28.11.2024</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="We are getting hitched - The dates are 21st & 29th of October '23 and we would like you to be a part of it."
-    />
-    <meta name="keywords" content="Gagan,Anu,wedding,website,rsvp" />
-    <meta name="author" content="Anu & Gagan" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Developer | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #1f2933;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      color: #cbd5e1;
+    }
+    nav {
+      background: #111827;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    nav a {
+      color: #e5e7eb;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #60a5fa;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .skills span {
+      display: inline-block;
+      background: #e5e7eb;
+      padding: 0.4rem 0.7rem;
+      margin: 0.3rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    footer {
+      background: #1f2933;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+    footer a {
+      color: #93c5fd;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
 
-    <!-- Facebook and Twitter integration -->
-    <meta property="og:image" content="images/og.jpg" />
-    <meta property="og:site_name" content="Gagan ❤️ Anu - 28.11.2024" />
-    <meta property="og:title" content="Gagan ❤️ Anu - 28.11.2024" />
-    <meta
-      property="og:description"
-      content="We are getting hitched - The dates are 21st & 29th of October '23 and we would like you to be a part of it."
-    />
-    <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
-    <meta property="og:image:width" content="300" />
-    <meta property="og:image:height" content="300" />
-    <!-- Website to visit when clicked in fb or WhatsApp-->
-    <meta property="og:url" content="https://we.shyamjos.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image:type" content="image/jpeg" />
+  <header>
+    <h1>Gagan V</h1>
+    <p>Senior Developer</p>
+  </header>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Sacramento"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Engagement"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Sofia+Sans+Condensed"
-      rel="stylesheet"
-    />
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <!-- clock   -->
-    <link rel="stylesheet" href="css/responsive-clock.css" />
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css" />
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css" />
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css"
-    />
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css" />
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a software developer passionate about building clean, scalable,
+        and user‑friendly applications. I enjoy solving real‑world problems
+        using modern technologies.
+      </p>
+    </section>
 
-    <!-- Owl Carousel  -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-
-    <!-- Theme style  -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="fh5co-loader"></div>
-
-    <div id="page">
-      <nav class="fh5co-nav" role="navigation">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-10 text-right menu-1">
-              <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li class="active"><a href="#fh5co-event">Events</a></li>
-                <li class="active"><a href="#fh5co-gallery">Gallery</a></li>
-                <li class="active"><a href="#fh5co-services">Highlights</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      <header
-        id="fh5co-header"
-        class="fh5co-cover"
-        role="banner"
-        style="background-image: url(images/bg.jpg)"
-        data-stellar-background-ratio="0.5"
-      >
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-              <div class="display-t">
-                <div
-                  class="display-tc animate-box"
-                  data-animate-effect="fadeIn"
-                >
-                  <h1>Anu &amp; Gagan</h1>
-                  <br />
-                  <img src="images/fprint.png" alt="Shyam + Rincy" />
-                  <h2>28.11.2024</h2>
-                  <h2>"I have found the one whom my soul loves." <br /></h2>
-                  <div class="flipTimebox">
-                    <div class="clock clock-fix"></div>
-                  </div>
-                  <p>
-                    <a href="#fh5co-event" class="btn btn-default btn-sm"
-                      >Save our date</a
-                    >
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <div id="fh5co-event" class="fh5co-bg">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
-            >
-              <h2>Events</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="display-t">
-              <div class="display-tc">
-                <div class="col-md-10 col-md-offset-1">
-                  <div class="col-md-6 col-sm-6 text-center">
-                    <div class="event-wrap animate-box">
-                      <h3>Reception</h3>
-                      <div class="event-col">
-                        <i class="icon-calendar"></i>
-                        <span>27 November 2024</span>
-                      </div>
-                      <div class="event-col">
-                        <i class="icon-clock"></i>
-                        <span>07:00 PM</span>
-                      </div>
-                      <p>
-                        At
-                        <b>Siddeshwara Convention Hall.</b>
-                        Sit, Tumkur - 572103
-                      </p>
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.338291277438!2d77.11394836891546!3d13.32922037827687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb02c3dec52cd95%3A0x78a567cb25ea27da!2sSri%20Siddeshwara%20Convention%20Hall!5e0!3m2!1sen!2sin!4v1732565009424!5m2!1sen!2sin"
-                        width="300"
-                        height="200"
-                        style="border: 0"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                      ></iframe>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6 text-center">
-                    <div class="event-wrap animate-box">
-                      <h3>Wedding</h3>
-                      <div class="event-col">
-                        <i class="icon-calendar"></i>
-                        <span>28 November 2024</span>
-                      </div>
-                      <div class="event-col">
-                        <i class="icon-clock"></i>
-                        <span>08:15 AM</span>
-                      </div>
-                      <p>
-                        At
-                        <b>Siddeshwara Convention Hall.</b>
-                        Sit, Tumkur - 572103
-                      </p>
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.338291277438!2d77.11394836891546!3d13.32922037827687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb02c3dec52cd95%3A0x78a567cb25ea27da!2sSri%20Siddeshwara%20Convention%20Hall!5e0!3m2!1sen!2sin!4v1732565009424!5m2!1sen!2sin"
-                        width="300"
-                        height="200"
-                        style="border: 0"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                      ></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>SQL</span>
+        <span>Git</span>
       </div>
+    </section>
 
-      <div id="fh5co-gallery" class="fh5co-section-gray">
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
-            >
-              <h2>Gallery</h2>
-            </div>
-          </div>
-          <div class="row row-bottom-padded-md">
-            <div class="col-md-12">
-              <ul id="fh5co-gallery-list">
-                <li
-                  class="one-third animate-box"
-                  data-animate-effect="fadeIn"
-                  style="background-image: url(images/RS1.jpg)"
-                >
-                  <a href="images/RS1.jpg">
-                    <div class="case-studies-summary"></div>
-                  </a>
-                </li>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:sam.gagan95@email.com">sam.gagan95@email.com</a></p>
+      <p>GitHub: <a href="https://github.com/gagan95">github.com/gagan95</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/gagan-v/">linkedin.com/in/gagan-v</a></p>
+    </section>
+  </div>
 
-                <li
-                  class="one-third animate-box"
-                  data-animate-effect="fadeIn"
-                  style="background-image: url(images/RS2.jpg)"
-                >
-                  <a href="images/RS2.jpg">
-                    <div class="case-studies-summary"></div>
-                  </a>
-                </li>
-                <li
-                  class="one-third animate-box"
-                  data-animate-effect="fadeIn"
-                  style="background-image: url(images/RS3.jpg)"
-                >
-                  <a href="images/RS3.jpg">
-                    <div class="case-studies-summary"></div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+  <footer>
+    <p>© 2026 Gagan V. All rights reserved.</p>
+  </footer>
 
-      <div id="fh5co-services" class="fh5co-section-gray">
-        <div class="container">
-          <div class="row animate-box">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2>Highlights</h2>
-            </div>
-          </div>
-
-          <div class="container animate-box">
-            <p align="center">
-              <iframe
-                src="https://drive.google.com/file/d/1iYOPhtLF3W_0gnjRbOthbNihzD1RjUKV/preview"
-              ></iframe>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="gototop js-top">
-      <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-    </div>
-
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- clock -->
-    <script src="js/clock.js"></script>
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <!-- Carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- countTo -->
-    <script src="js/jquery.countTo.js"></script>
-    <script src="https://momentjs.com/downloads/moment.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data-2012-2022.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js"></script>
-    <!-- Stellar -->
-    <script src="js/jquery.stellar.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/magnific-popup-options.js"></script>
-
-    <!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-    <script src="js/simplyCountdown.js"></script>
-    <!-- Main -->
-    <script src="js/main.js"></script>
-  </body>
+</body>
 </html>
